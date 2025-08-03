@@ -16,7 +16,7 @@ struct SessionView: View {
             Spacer()
             
             Circle()
-                .fill(Color("Secondary"))
+                .fill(Color("AppSecondary"))
                 .frame(width: circleSize, height: circleSize)
                 .task {
                     await gentleBreath(times: 4)
@@ -78,6 +78,6 @@ struct SessionView: View {
         SessionView()
             .padding(.horizontal, 16)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color("Primary"))
+            .background(Color("AppPrimary"))
     }
 }

@@ -22,8 +22,8 @@ struct MainView: View {
                     .padding(.vertical, 16)
                     .frame(maxWidth: .infinity)
                     .fontWeight(.bold)
-                    .foregroundColor(Color("Text"))
-                    .background(Color("Secondary"))
+                    .foregroundColor(Color("AppText"))
+                    .background(Color("AppSecondary"))
                     .clipShape(.capsule)
             }
             .buttonStyle(.plain)
@@ -38,7 +38,7 @@ struct MainView: View {
         }
         .padding(.horizontal, 8)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color("Primary"))
+        .background(Color("AppPrimary"))
     }
 }
 
