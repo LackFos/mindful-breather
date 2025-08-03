@@ -6,43 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		14D551E02E28A72600A2C69A /* Mindful Breather Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 14D551DF2E28A72600A2C69A /* Mindful Breather Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		14D551E12E28A72600A2C69A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 14D551D32E28A72600A2C69A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 14D551DE2E28A72600A2C69A;
-			remoteInfo = "Mindful Breather Watch App";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		14D551EF2E28A72600A2C69A /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				14D551E02E28A72600A2C69A /* Mindful Breather Watch App.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		14D551D92E28A72600A2C69A /* Mindful Breather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindful Breather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		14D551DF2E28A72600A2C69A /* Mindful Breather Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindful Breather Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D551DF2E28A72600A2C69A /* MindfulBreather Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MindfulBreather Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		14D551E32E28A72600A2C69A /* Mindful Breather Watch App */ = {
+		14D551E32E28A72600A2C69A /* MindfulBreather */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Mindful Breather Watch App";
+			path = MindfulBreather;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -61,7 +32,7 @@
 		14D551D22E28A72600A2C69A = {
 			isa = PBXGroup;
 			children = (
-				14D551E32E28A72600A2C69A /* Mindful Breather Watch App */,
+				14D551E32E28A72600A2C69A /* MindfulBreather */,
 				14D551DA2E28A72600A2C69A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,8 +40,7 @@
 		14D551DA2E28A72600A2C69A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14D551D92E28A72600A2C69A /* Mindful Breather.app */,
-				14D551DF2E28A72600A2C69A /* Mindful Breather Watch App.app */,
+				14D551DF2E28A72600A2C69A /* MindfulBreather Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,28 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14D551D82E28A72600A2C69A /* Mindful Breather */ = {
+		14D551DE2E28A72600A2C69A /* MindfulBreather Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14D551F02E28A72600A2C69A /* Build configuration list for PBXNativeTarget "Mindful Breather" */;
-			buildPhases = (
-				14D551D72E28A72600A2C69A /* Resources */,
-				14D551EF2E28A72600A2C69A /* Embed Watch Content */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				14D551E22E28A72600A2C69A /* PBXTargetDependency */,
-			);
-			name = "Mindful Breather";
-			packageProductDependencies = (
-			);
-			productName = "Mindful Breather";
-			productReference = 14D551D92E28A72600A2C69A /* Mindful Breather.app */;
-			productType = "com.apple.product-type.application.watchapp2-container";
-		};
-		14D551DE2E28A72600A2C69A /* Mindful Breather Watch App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 14D551EC2E28A72600A2C69A /* Build configuration list for PBXNativeTarget "Mindful Breather Watch App" */;
+			buildConfigurationList = 14D551EC2E28A72600A2C69A /* Build configuration list for PBXNativeTarget "MindfulBreather Watch App" */;
 			buildPhases = (
 				14D551DB2E28A72600A2C69A /* Sources */,
 				14D551DC2E28A72600A2C69A /* Frameworks */,
@@ -110,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				14D551E32E28A72600A2C69A /* Mindful Breather Watch App */,
+				14D551E32E28A72600A2C69A /* MindfulBreather */,
 			);
-			name = "Mindful Breather Watch App";
+			name = "MindfulBreather Watch App";
 			packageProductDependencies = (
 			);
 			productName = "Mindful Breather Watch App";
-			productReference = 14D551DF2E28A72600A2C69A /* Mindful Breather Watch App.app */;
+			productReference = 14D551DF2E28A72600A2C69A /* MindfulBreather Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,15 +80,12 @@
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					14D551D82E28A72600A2C69A = {
-						CreatedOnToolsVersion = 16.3;
-					};
 					14D551DE2E28A72600A2C69A = {
 						CreatedOnToolsVersion = 16.3;
 					};
 				};
 			};
-			buildConfigurationList = 14D551D62E28A72600A2C69A /* Build configuration list for PBXProject "Mindful Breather" */;
+			buildConfigurationList = 14D551D62E28A72600A2C69A /* Build configuration list for PBXProject "MindfulBreather" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -151,20 +99,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14D551D82E28A72600A2C69A /* Mindful Breather */,
-				14D551DE2E28A72600A2C69A /* Mindful Breather Watch App */,
+				14D551DE2E28A72600A2C69A /* MindfulBreather Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		14D551D72E28A72600A2C69A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		14D551DD2E28A72600A2C69A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,14 +123,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		14D551E22E28A72600A2C69A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 14D551DE2E28A72600A2C69A /* Mindful Breather Watch App */;
-			targetProxy = 14D551E12E28A72600A2C69A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		14D551EA2E28A72600A2C69A /* Debug */ = {
@@ -368,41 +300,10 @@
 			};
 			name = Release;
 		};
-		14D551F12E28A72600A2C69A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6UTNVJP6MF;
-				INFOPLIST_KEY_CFBundleDisplayName = "Mindful Breather";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "lackfos.Mindful-Breather";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		14D551F22E28A72600A2C69A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6UTNVJP6MF;
-				INFOPLIST_KEY_CFBundleDisplayName = "Mindful Breather";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "lackfos.Mindful-Breather";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14D551D62E28A72600A2C69A /* Build configuration list for PBXProject "Mindful Breather" */ = {
+		14D551D62E28A72600A2C69A /* Build configuration list for PBXProject "MindfulBreather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14D551EA2E28A72600A2C69A /* Debug */,
@@ -411,20 +312,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14D551EC2E28A72600A2C69A /* Build configuration list for PBXNativeTarget "Mindful Breather Watch App" */ = {
+		14D551EC2E28A72600A2C69A /* Build configuration list for PBXNativeTarget "MindfulBreather Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14D551ED2E28A72600A2C69A /* Debug */,
 				14D551EE2E28A72600A2C69A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		14D551F02E28A72600A2C69A /* Build configuration list for PBXNativeTarget "Mindful Breather" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				14D551F12E28A72600A2C69A /* Debug */,
-				14D551F22E28A72600A2C69A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

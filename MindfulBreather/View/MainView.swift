@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Mindful Breather Watch App
+//  Mindful Breather
 //
 //  Created by Elvis on 17/07/25.
 //
